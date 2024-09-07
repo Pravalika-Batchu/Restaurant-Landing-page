@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <top class="d-flex">
+        <img src="images/Food bg.jpeg" alt ="Food">
+    </top>
+    <nav class="d-flex">
+        <div class="nav-left d-flex">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALoAAACUCAMAAAATdsOFAAAAZlBMVEX///8AAADh4eH8/Pyfn586OjoXFxfl5eUeHh4aGhrb29vQ0NDe3t7X19f4+PjU1NTy8vK/v7+np6dcXFxFRUVpaWkODg6wsLCKiop7e3vr6+vKyspRUVFycnIpKSm3t7eXl5cwMDChZAzWAAAE3klEQVR4nO2ai3KqMBCGFeSqQkDkfn3/lzxkExBaxWAT6OnsN05HOjT5u2x2NxsOBwRBEARBEARBEARBEARBEAT5a+hFEobJVd9bx1r0ojxy7v+Veu8hHMSf9xYkDGnj45xmb0mC6BUXXN9G45/2FiUGU262Wk5I7mZMe7K3KhESkJqO1+ROr+NiR0mCWDU1eTj5jdfCWvV2kyRK+t21PXChX2/2/NarzPQD0dxzEASF71q9uan0297S3hGYvUrDqG3bMeM4Nk3Htuuoo9r3lrYI0YLb8SXZ2SJ7K3wOKcLKfC0cAn3W/MKqIA+r+ptU82tWPR6jrPldoYak0VTfLQ2Kq2YBml8k6bSksaPw/YBbQapRVx2lxVOXIEFW28NdcZtvrfEpVjsoMu4na+lOv713/NYu3F88CXtXAZe+h/7bJegVbe87sd0v51uws89fh2BYFYJmtJryaJr9x8wWH5FqQh5VyusKE3oBdfre8HagTtkbLszkcbR6F5TwgJTu5DSBwSL1aebilh8U75Nm3rJwc3OVyVuA1eXHbDa5ld76INIKGJOXDNH2TqPzkDiPE3xvV2oCI+QpywRb7588Nm93GX+jF71ej2dTsWgTsEW+bXLl+TMbnTpPQAN9FmYk3LzI2WptNyzJPLZXbgflXgJFSpn3GapNLuJKcrZvPW2mnXtLMri5e2cV4n19OU7ACM5mPnOau2ho8BLG/2AsnT3AjeIMi4pDQ8u6c+Gfzs60X2WpW6IA9xxsXrCVZrSfDwj/u7FBQZMb0wwesC1d9hOjsR5TpX7fCvPcuPKEpfPmZ9NqEJ9C1WEmBHcZlINw58d+ynKT4nLGp+5i8kmaNalzETBIp7SMZFmUL9GA7TGk7NRg3FbGSK8IJpnnAn6eydlj5nSw+PL+xk8hNBJ2LPMQKFpLWQ8ZjJJJGuwJp8djZVmwlBbRoCyylR3c6LCY2HcILoZIXS6I36kM7umj2tCo69RSK4/J6NIh1C4RSxzgLumbP1iHS+NupSZAnh5muU5cRxpgDoku+ADOK+4sFkJclF0wEYi8kgcFGlppsT1woyaSQV5SUMnA1qiEpOFR+3fyq1R3toORxyUaLQ2NNwXnzzqdopQ/bjFGQ8gekYo6jyaLWno1ANmTRcZzp6pUck0VI5N69BdaoXZKDnChMK1kj3qhSwhaQ7AfU3R+S60i1PVbA9Qs8E1TWFoHjoKuezkufp9W1opOgqxSQXg8jvHQ6hTlvAPvFEs+L8hHV+/Nnqo7O0wlbXYnQN9oGFJh1yHpw6MhN2XQpW9v8HJCUT+eriRoQtriPSLorcnNGXTlZxtI96Kj7FfcqPRNGvjyJyqlG+MFtJ6WekADDZjmoCsHurFSPROk18YiUWREy3eI4MiOBzk/c3kJrVbN+PtLRx8hVTpZlk7fq+sLG1Hl7+6TG4WrN7NJRXL7Lji9JgyHH1LY5EQMQf4AnqXtCEjQqQRLs1aWBSTdMho+D48ndpxsruyzNTxtLGYP+r4ivLP4KS9HNwhr/NrQUl6XoRKhqe14RQ5dg+HxnrW5XjqpYvM7zuzCcWxHBHvC7OIlJjhMyiTEqw9P3PMX/P4z5eq61ynuKy4z5uvRsjT+xvUUvgm+FBQl5xwIgiAIgiAIgiAIgiAIgiAIgiAIgiB/gn97H0VQuRl6qgAAAABJRU5ErkJggg==" alt="dish">
+            <h4 style="position: relative; left: 2px; bottom:15px;" >Restaurant</h4>
+        </div>
+        <div class="Home d-flex">
+            <h4 style="cursor:pointer;"><a href="index.html" target="_self">Home</a></h4>
+        </div>
+        <div class="Loc d-flex">
+            <h4 class = "Location-label" onclick="displayLocations()">Locations</h4>
+            <div id="Locations" class="Location-content d-flex">
+                <a href="" target="_self">Secunderabad</a>
+                <a href="" target="_self">Uppal</a>
+                <a href="" target="_self">L.B.Nagar</a>
+                <a href="" target="_self">Boduppal</a>
+                <a href="" target="_self">Dilsukhnagar</a>
+                <a href="" target="_self">Malakpet</a>
+            </div>
+        </div>
+        <div class="About d-flex">
+            <h4 class="About-label"><a href=""target="_self">About Us</a></h4>
+        </div>
+        <div class="Contact d-flex">
+            <h4 style="cursor:pointer;"><a href=""target="_self">Contact us</a></h4>
+        </div>
+        <div class="nav-right d-flex">
+            <input type="text" placeholder="Search">
+            <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1200px-Search_Icon.svg.png" alt = "Search">
+        </div>
+        <div class="lsign">
+        <button class="login"><a href="" target="_self">Log-in</a>
+            <img class="limage" src="https://e7.pngegg.com/pngimages/621/577/png-clipart-computer-icons-login-symbol-login-interface-miscellaneous-text.png" alt="Login">
+            
+        </button>
+        <button class = "signin"><a href="" target="_self">Sign-in</a>
+            <img class="simage" src="https://e7.pngegg.com/pngimages/621/577/png-clipart-computer-icons-login-symbol-login-interface-miscellaneous-text.png" alt="Clickable Image">
+        </button>
+        </div>
+    </nav>
+    <middle class="d-flex">
+        <div class="menu-left">
+            <img src="https://thumbs.dreamstime.com/b/assorted-indian-food-set-wooden-background-dishes-appetisers-indeed-cuisine-rice-lentils-paneer-samosa-spices-mas-masala-179640947.jpg" alt="Menu"><a href="" target="_blank"></a>
+            <br>
+            <h3 style ="padding-left:125px;padding-top:20px;">Menu</h3>
+        </div>
+        <div class="Dinein">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWkGaBTTgKm42knmF4IpjngpCM0YLDHxBZYg&s" alt="reserve your table">
+            <br>
+            <h3 style ="margin-left:90px;margin-top: 20px;">Dine-In</h3>
+        </div>
+        <div class="Takeaway">
+            <img src="https://thumbs.dreamstime.com/b/small-business-entrepreneur-concept-smiling-young-waitress-wearing-black-apron-serving-customer-counter-restaurant-138397233.jpg" alt = "Takeaway">
+            <br>
+            <h3 style ="padding-left:325px;padding-top:20px;">Takeaway</h3>
+        </div>
+        <div class="Gallery">
+            <img src="https://media.istockphoto.com/id/1307190527/photo/happy-waiter-serving-food-to-group-of-friends-in-a-pub.jpg?s=612x612&w=0&k=20&c=EDqQ0oBcpFGV25p61vWUF5N-6lRJdbmZmQMe5kyuxyA=" alt ="Our restaurant Images">
+            <br>
+            <h3 style ="padding-left:80px;padding-top:20px;">Our restaurant images</h3>
+        </div>
+    </middle>
+</body>
+</html>
