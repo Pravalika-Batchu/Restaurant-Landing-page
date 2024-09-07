@@ -1,0 +1,216 @@
+
+*{
+    margin:0px; 
+    padding:0px;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+top img{
+    width:2000px;
+    height:250px;
+
+}
+main img{
+    width:2000px;
+    height:1000px;
+}
+nav{
+    /*border : 2px solid red;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.616);
+    position:sticky;
+    justify-content:space-between;
+    background-color: #cd9868;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(39, 31, 31);
+}
+.nav-left{
+    display: inline-block;
+}
+.nav-left img{
+    width:20%;
+    border-radius: 7px;
+    padding-top:3px;
+}
+h4{
+    /*padding:5px;
+    border: 1px solid red;*/
+    color:rgb(39, 31, 31);
+    padding:2px;
+    margin:2px;
+    display: inline-flex;
+    cursor:pointer;
+}
+.Loc{
+    position: relative; /* Makes the dropdown relative to the parent div */
+}
+.Location-label {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+  }
+.Location-content {
+    display: none;
+    position:absolute;
+    bottom:100%;
+    left:0%;
+    background-color: #d8c8a6;
+    width:200%;
+    z-index: 9999; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+  
+.Location-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.Locations a:hover {background-color: #ddd;}
+  
+.show {
+    display: block;
+}
+nav img:hover{
+    border-radius:10px;
+    background-color: rgb(240, 233, 230);
+}
+.nav-right img{
+    width:20px;
+    margin-right:30px;
+    cursor:pointer;
+}
+.nav-right input{
+    width:90%;
+    outline:black;
+    margin-right:20px;
+    border-radius:50px; 
+    padding:.1rem;
+}
+.login{
+    width:80px;
+    height:20px;
+    align-items: flex-end;
+    border-radius:8px;
+    margin-right:30px;
+    font-size: 13px;
+    text-align: center;
+    font-display: left;
+    box-shadow: 0 0 2px solid black;
+    cursor:pointer;
+}
+.ltext{
+    white-space: nowrap;
+}
+.login img{
+    width:20px;
+    margin-top:3px;
+}
+.signin{
+    width:80px;
+    height:20px;
+    align-items: flex-end;
+    border-radius:8px;
+    margin-left:10px;
+    margin-right:50px;
+    box-shadow: 0 0 2px solid black;
+    cursor:pointer;
+}
+.stext{
+    white-space: nowrap;
+}
+.signin img{
+    width:20px;
+    margin-top:3px;
+}
+middle{
+    width:1355px;
+    height:335px;
+    position:absolute;
+    background-color: #d8c8a6;
+    justify-content:space-between;
+    z-index: 2;
+}
+
+middle img:hover{
+    border-radius:25px;
+    background-color: rgb(204, 197, 197);
+}
+.menu-left{
+    width:350px;
+    height:300px;
+    margin-left:30px;
+    margin-top:15px;
+    position:absolute;
+    float: left; 
+}
+.menu-left img{
+    width:250px;
+    margin-left:30px;
+    margin-top:50px;
+    border-radius:20px;
+    box-shadow: 0 0 5px black;
+    cursor:pointer;
+}
+.Dinein{
+    width:350px;
+    height:300px;
+    margin-left:380px;
+    position:absolute;
+    align-items: center;
+    float: left; 
+
+}
+.Dinein img{
+    width:250px;
+    height:170px;
+    margin-top:50px;
+    border-radius:30px;
+    box-shadow: 0 0 5px black;
+    cursor:pointer;
+}
+.Takeaway{
+    width:350px;
+    height:300px;
+    margin-left:460px;
+    position:absolute;
+    align-items: center;
+    float: left; 
+
+}
+.Takeaway img{
+    width:250px;
+    height:170px;
+    margin-left:250px;
+    margin-top:50px;
+    border-radius:30px;
+    box-shadow: 0 0 5px black;
+    cursor:pointer;
+}
+.Gallery{
+    width:350px;
+    height:300px;
+    margin-left:980px;
+    position:absolute;
+    align-items: center;
+    float: left; 
+
+}
+.Gallery img{
+    width:250px;
+    height:170px;
+    margin-left:50px;
+    margin-top:50px;
+    border-radius:30px;
+    box-shadow: 0 0 5px black;
+    cursor:pointer;
+}
